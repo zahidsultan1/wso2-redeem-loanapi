@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: <WS02_APP_NAME>-mi
-          image: internal-registry.tkg.mobilink.net.pk/wso2-prod/wso2/wso2mi/<WS02_APP_NAME>:<WS02_APP_TAG> 
+          image: ghcr.io/zahidsultan1/wso2-prod//wso2/wso2mi/<WS02_APP_NAME>:<WS02_APP_TAG> 
           imagePullPolicy: IfNotPresent
           env:
             - name: POD_NAME

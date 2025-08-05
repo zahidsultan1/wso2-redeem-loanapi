@@ -1,4 +1,4 @@
-FROM internal-registry.tkg.mobilink.net.pk/wso2-prod/wso2/wso2mi:4.1.0-ol7
+FROM ghcr.io/zahidsultan1/wso2-prod/wso2/wso2mi:4.1.0-ol7
 
 COPY extras/axis2.xml ${WSO2_SERVER_HOME}/conf/axis2/
 COPY deployment.toml ${WSO2_SERVER_HOME}/conf/

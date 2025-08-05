@@ -28,7 +28,7 @@ pipeline {
             cd mi-config
             /kaniko/executor --cleanup --dockerfile `pwd`/Dockerfile \
                              --context `pwd` \
-                             --destination=internal-registry.tkg.mobilink.net.pk/wso2-prod/wso2/wso2mi/$JOB_NAME:$BUILD_NUMBER
+                             --destination=ghcr.io/zahidsultan1/wso2-prod//wso2/wso2mi/$JOB_NAME:$BUILD_NUMBER
             '''
           }
         }

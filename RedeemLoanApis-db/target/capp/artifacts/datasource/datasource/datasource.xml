@@ -1,0 +1,15 @@
+<datasource>
+	<name>loyaltygenericdbconnection</name>
+	<description>MySQL Connection</description>
+	<jndiConfig useDataSourceFactory="false">
+		<name>jdbc/loyaltydata</name>
+	</jndiConfig>
+	<definition type="RDBMS">
+		<configuration>
+			<driverClassName>com.mysql.jdbc.Driver</driverClassName>
+			<url>jdbc:mysql://10.50.13.228:3306/Loyalty_Generic</url>
+			<username>devteam</username>
+			<password>Dev_Team123</password>
+		</configuration>
+	</definition>
+</datasource>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jazz.redeem.loan.apis</groupId>
+  <artifactId>RedeemLoanApis-esb_module</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>RedeemLoanApis-esb_module</name>
+  <description>RedeemLoanApis-esb_module</description>
+  <modules>
+    <module>artifacts\api\JazzAdvanceLoan_v2</module>
+    <module>artifacts\api\JazzLoanAPIs</module>
+    <module>artifacts\metadata\JazzAdvanceLoan_v2_swagger</module>
+    <module>artifacts\metadata\JazzAdvanceLoan_v2_metadata</module>
+    <module>artifacts\metadata\JazzLoanAPIs_swagger</module>
+    <module>artifacts\metadata\JazzLoanAPIs_metadata</module>
+    <module>artifacts\endpoint\APC_AIR_EP</module>
+    <module>artifacts\endpoint\apc_clientele_preprod</module>
+    <module>artifacts\endpoint\BundlePriceCheckGETEP</module>
+    <module>artifacts\endpoint\CHANNEL_API_ACTIVATION_EP</module>
+    <module>artifacts\sequence\BUNDLE_PRICE_CHECK_INSEQUENCE</module>
+    <module>artifacts\sequence\BUNDLE_SUBCRIPTION_FOR_LOAN_SUB_INSEQUENCE</module>
+    <module>artifacts\sequence\GenericRemoveHeaders</module>
+    <module>artifacts\sequence\GET_AND_BALANCE_FOR_LOAN_INSEQUENCE</module>
+    <module>artifacts\sequence\REFILL_FOR_LOAN_SUB_INSEQUENCE</module>
+    <module>artifacts\sequence\REQUEST_PAYLOAD_EP</module>
+    <module>artifacts\sequence\LOYALITY_BALANCES_DADICATESACOUNTS_INSEQUENCE</module>
+    <module>artifacts\sequence\LOYALITY_BALANCES_DADICATESACOUNTS_INSEQUENCE_V2</module>
+    <module>artifacts\sequence\LOYALTY_MSA_LOG_ERROR</module>
+    <module>artifacts\sequence\LOYALTY_MSA_LOG_REQUEST</module>
+    <module>artifacts\sequence\LOYALTY_MSA_LOG_RESPONSE</module>
+    <module>artifacts\sequence\SUBSCRIBE_WITH_LOAN_FAULTSEQUENCE</module>
+  </modules>
+  <distributionManagement>
+    <repository>
+      <id>release</id>
+      <name>Release Distribution Repository</name>
+      <url>https://example.com/nexus/repository</url>
+    </repository>
+  </distributionManagement>
+</project>
